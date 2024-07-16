@@ -1,6 +1,6 @@
-# Ultimate Next.js 15, Typescript and Supabase Course: Build a Full-Featured Slack Clone
+# Slack Clone fot Titan Exchange
 
-Welcome to the Ultimate Next.js 15, TypeScript and Supabase Course! In this course, you'll learn how to build a fully-featured Slack clone from scratch. This README will guide you through setting up the project and running the course.
+Fully-featured Slack clone for Titan Exchange
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@ Follow these steps to set up the project:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/laribright/slack-clone.git
+   git clone https://github.com/Titan-Cognitive/Titan_Exchange.git
    cd slack-clone
    ```
 
@@ -25,6 +25,31 @@ Follow these steps to set up the project:
 
    ```bash
    bun install
+   bun install -g supabase-cli
+   npm install @supabase/ssr @supabase/supabase-js --force
+   bun add tailwindcss
+   bun add eslint
+   bun add react-hook-form zod @hookform/resolvers
+   bun add next-themes
+   bun add react-icons
+   bun add @supabase/ssr @supabase/supabase-js
+   bun add supabase@">=1.8.1" --dev
+   bun add zustand
+   bun add uploadthing @uploadthing/react
+   bun add slugify uuid
+   bun add shadcn-ui
+   bunx --bun shadcn-ui init
+   bunx --bun shadcn-ui add form
+   bunx --bun shadcn-ui add input
+   bunx --bun shadcn-ui add sonner
+   bunx --bun shadcn-ui add avatar
+   bunx --bun shadcn-ui add card
+   bunx --bun shadcn-ui add separator
+   bunx --bun shadcn-ui add popover
+   bunx --bun shadcn-ui add dialog
+   bunx --bun shadcn-ui add tabs
+   bunx --bun shadcn-ui add progress
+   bunx --bun shadcn-ui add collapsible  
    ```
 
 3. **Set Up Environment Variables:**
@@ -38,14 +63,14 @@ Follow these steps to set up the project:
 4. **Run the Development Server:**
 
    ```bash
-   bun dev
+   bun run dev
    ```
 
    Your app should now be running on [http://localhost:3000](http://localhost:3000).
 
 ## Course Structure
 
-This course is divided into multiple modules, each covering different aspects of building the Slack clone. The modules include:
+Slack clone modules include:
 
 - Setting up Next.js and TypeScript
 - Configuring Supabase (RPC, Storage, SQL, Role Level Security)
@@ -64,31 +89,11 @@ All SQL scripts used in this course can be found in the `sql.txt` file. These sc
 
 ### Documentation Links
 
-For detailed documentation and additional resources, refer to the `docs.tsx` file. This file contains links to various documentation pages for the libraries and tools used in this course.
+For detailed documentation and additional resources, refer to the `docs.tsx` file. This file contains links to various documentation pages for the libraries and tools.
 
 ### Environment Variables
 
 Make sure to properly configure your environment variables by referring to the `.env.example` file. This file contains example values and instructions on what needs to be filled in.
-
-## Course Video
-
-Watch the full course on YouTube: [Ultimate Next.js 15, Typescript and Supabase Course: Build a Full-Featured Slack Clone](https://youtu.be/3D8Q_BMurfs)
-
-Part 2
-Watch the full course on YouTube: [Ultimate Next.js 15, Typescript and Supabase Course: Build a Full-Featured Slack Clone](https://youtu.be/LX3zttE15s4)
-
-## Community and Support
-
-If you have any questions, need further help, or want to engage with other learners, join our Discord group. Here, you can get personalized mentorship, ask questions, and share your progress.
-
-## Contributing
-
-If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. Contributions are always welcome!
-
-## Support
-
-If you find this course helpful, please give this repository a star to show your support!
-
 ---
 
-Happy coding! Let's build something amazing together.
+
